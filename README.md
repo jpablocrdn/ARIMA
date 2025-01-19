@@ -40,7 +40,7 @@
         its configuration as an index to facilitate temporal analysis. In addition, a preliminary 
         visualization was performed to identify obvious patterns of trend and seasonality.
     </p>
-    <img src="Imagen1.png" style="width:100%; max-width:800px; border:1px solid #ddd; padding:10px;">
+    ![Image](https://github.com/user-attachments/assets/426a2ed7-0721-411c-96e2-d73b55b66ec2)
     
 <h3>Verification of Stationarity </h3>
     <p align="justify">
