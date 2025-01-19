@@ -40,7 +40,7 @@
         its configuration as an index to facilitate temporal analysis. In addition, a preliminary 
         visualization was performed to identify obvious patterns of trend and seasonality.
     </p>
-    <img src="Imagen1.png" alt="Electricity Production Over Time" style="width:100%; max-width:800px; border:1px solid #ddd; padding:10px;">
+    <img src="Imagen1.png" style="width:100%; max-width:800px; border:1px solid #ddd; padding:10px;">
     
 <h3>Verification of Stationarity </h3>
     <p align="justify">
@@ -49,7 +49,7 @@
         differencing was applied which stabilized the series mean. The subsequent ADF test 
         confirmed that the differenced series was stationary, with a p-index less than 0.05.
     </p>
-    <img src="Imagen2.png" alt="Electricity Production Over Time" style="width:100%; max-width:800px; border:1px solid #ddd; padding:10px;">
+    <img src="Imagen2.png" style="width:100%; max-width:800px; border:1px solid #ddd; padding:10px;">
 
 <h3>Identification of ARIMA Parameters </h3>
     <p align="justify">
@@ -66,8 +66,8 @@
         <li>The ACF and PACF functions of the residuals did not show significant autocorrelations.</li>
         <li>The residuals were approximately normally distributed, indicating a good fit of the model.</li>
       </p>
-      <img src="Imagen3.png" alt="Electricity Production Over Time" style="width:100%; max-width:800px; border:1px solid #ddd; padding:10px;">
-      <img src="Imagen4.png" alt="Electricity Production Over Time" style="width:100%; max-width:800px; border:1px solid #ddd; padding:10px;">
+      <img src="Imagen3.png" style="width:100%; max-width:800px; border:1px solid #ddd; padding:10px;">
+      <img src="Imagen4.png" style="width:100%; max-width:800px; border:1px solid #ddd; padding:10px;">
 
   <h2>4. Results </h2>
   
@@ -77,7 +77,7 @@
           the series and compared with the actual data. The mean square error (MSE) obtained was 
           reasonably low, confirming the model's ability to make accurate short-term forecasts.
       </p>
-      <img src="Imagen5.png" alt="Electricity Production Over Time" style="width:100%; max-width:800px; border:1px solid #ddd; padding:10px;">
+      <img src="Imagen5.png" style="width:100%; max-width:800px; border:1px solid #ddd; padding:10px;">
 
   <h3>Future Forecast </h3>
       <p align="justify">
@@ -86,7 +86,7 @@
           series. The predictions were visualized along with the historical data, evidencing a natural 
           extension of seasonal trends and cycles.
       </p>
-      <img src="Imagen6.png" alt="Electricity Production Over Time" style="width:100%; max-width:800px; border:1px solid #ddd; padding:10px;">
+      <img src="Imagen6.png" style="width:100%; max-width:800px; border:1px solid #ddd; padding:10px;">
 
   <h3>Series Decomposition </h3>
       <p align="justify">
@@ -97,7 +97,7 @@
           around zero, confirming that the main patterns were effectively captured by the trend and seasonality 
           components.
       </p>
-      <img src="Imagen7.png" alt="Electricity Production Over Time" style="width:100%; max-width:800px; border:1px solid #ddd; padding:10px;">
+      <img src="Imagen7.png" style="width:100%; max-width:800px; border:1px solid #ddd; padding:10px;">
 
   <h2>5. Conclusions </h2>
       <p align="justify">
